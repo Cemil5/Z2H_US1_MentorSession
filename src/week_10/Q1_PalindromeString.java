@@ -49,7 +49,7 @@ public class Q1_PalindromeString {
         return true;
     }
 
-    public static boolean isPalindrome(String input){
+    public static boolean isPalindrome5(String input){
         input = input.toLowerCase().replace(" ", "");
         String[] reversed = input.split("");
         String[] sentArr = input.split("");
@@ -60,7 +60,7 @@ public class Q1_PalindromeString {
     }
 
     // Gadir
-    public static boolean isPalindrome5(String text) {
+    public static boolean isPalindrome(String text) {
         text = text.replace(" ", "");
         String reverse = "";
         boolean isPalindrome = false;
@@ -77,7 +77,7 @@ public class Q1_PalindromeString {
 
     //**************************
     // Khashayar
-    static void isPalindrome() {
+    static void isPalindrome6() {
         Scanner input = new Scanner(System.in);
         System.out.println("please enter your word or words: ");
         //  input.nextLine();

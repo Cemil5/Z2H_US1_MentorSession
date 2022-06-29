@@ -124,12 +124,12 @@ public class Q2_PalindromeArray {
 
 
     public static void main(String[] args) {
-        String[] arr1 = {"abc", "car", "ada", "race car", "cool", "Was it a car or a cat I saw", " "};
+        String[] arr1 = {"abc", "car", "ada", "race car", "cool", "Was it a car or a cat I saw", " ", "abba"};
         String[] arr2 = {"def", "ab"};
         System.out.println(getPalindromes(arr1));
         System.out.println(getPalindromes(arr2));
-        System.out.println(palindromeList(arr1));
-        System.out.println(palindromeList(arr2));
+        System.out.println(addPalindrome(arr1));
+        System.out.println(addPalindrome(arr2));
 
 
     }
