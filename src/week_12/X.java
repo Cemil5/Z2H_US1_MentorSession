@@ -12,7 +12,7 @@ class Y extends X{
     }
 }
 
-class MainClass{
+class MainClass3{
     public static void main(String[] args) {
         Y.staticMethod();
     }
